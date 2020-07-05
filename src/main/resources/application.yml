@@ -7,3 +7,9 @@ spring:
     nacos:
       server-addr: localhost:8848
 
+feign:
+  sentinel:
+    enabled: true
+
+ribbon:
+  ReadTimeout: 2000
